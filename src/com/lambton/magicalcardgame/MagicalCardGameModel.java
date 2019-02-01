@@ -6,7 +6,7 @@ public class MagicalCardGameModel {
     String[][]cardList=null;
     String[][]firstShuffle=null;
     String[][]secShuffle=null;
-    String[][]thirdShuffle=null;
+    //String[][]thirdShuffle=null;
     String guessedCard;
 
     public String getFirstShuffleColPos() {
@@ -57,11 +57,11 @@ public class MagicalCardGameModel {
         this.guessedCard = guessedCard;
     }
 
-    public String[][] getThirdShuffle() {
+    /*public String[][] getThirdShuffle() {
         return thirdShuffle;
     }
 
     public void setThirdShuffle(String[][] thirdShuffle) {
         this.thirdShuffle = thirdShuffle;
-    }
+    }*/
 }
