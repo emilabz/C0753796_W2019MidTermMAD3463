@@ -23,5 +23,8 @@ public class MCardGame {
         magicalCardGameModel.setSecShuffleColPos(sc.nextLine());
         magicalCardGameModel.setSecShuffle(mc.getSecShuffleResult(magicalCardGameModel));
         System.out.println("output for first shuffle:\n"+magicalCardGameModel.getSecShuffle());
+
+        magicalCardGameModel.setGuessedCard(mc.getFinalResult(magicalCardGameModel));
+        System.out.println("Selected card is"+magicalCardGameModel.getGuessedCard());
     }
 }
