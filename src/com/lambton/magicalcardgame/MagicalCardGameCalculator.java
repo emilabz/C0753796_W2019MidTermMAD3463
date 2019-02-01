@@ -31,7 +31,7 @@ public class MagicalCardGameCalculator implements MagicalCardGameInterface{
         return b;
     }
     public String[][] getSecShuffleResult(MagicalCardGameModel magicalCardGameModel){
-        String[][] a=magicalCardGameModel.getCardList();
+        String[][] a=magicalCardGameModel.getFirstShuffle();
         String[][] b=null;
         if(magicalCardGameModel.getSecShuffleColPos()=="C1"){
             for(i=0;i<3;i++){
@@ -57,6 +57,7 @@ public class MagicalCardGameCalculator implements MagicalCardGameInterface{
         return b;
     }
     public String getFinalResult(MagicalCardGameModel magicalCardGameModel){
-
+        String[][] a=magicalCardGameModel.getSecShuffle();
+        return a[1][1];
     }
 }
