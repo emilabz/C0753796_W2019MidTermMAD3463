@@ -16,12 +16,12 @@ public class MCardGame {
 
         System.out.println("Select the column position of your card");
         magicalCardGameModel.setFirstShuffleColPos(sc.nextLine());
-        mc.getFirstShuffleResult(magicalCardGameModel);
-
+        magicalCardGameModel.setFirstShuffle(mc.getFirstShuffleResult(magicalCardGameModel));
+        magicalCardGameModel.getFirstShuffle();
         System.out.println("Now select the column position of your card");
         magicalCardGameModel.setSecShuffleColPos(sc.nextLine());
         mc.getSecShuffleResult(magicalCardGameModel);
 
-        
+
     }
 }
