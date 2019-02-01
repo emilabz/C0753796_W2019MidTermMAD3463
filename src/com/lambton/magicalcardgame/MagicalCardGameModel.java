@@ -1,3 +1,5 @@
+package com.lambton.magicalcardgame;
+
 public class MagicalCardGameModel {
     String firstShuffleColPos;
     String secShuffleColPos;
