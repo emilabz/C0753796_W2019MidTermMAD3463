@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import java.util.*;
+public abstract class MagicalCardGameCalculator implements MagicalCardGameInterface{
 
-public class MagicalCardGameCalculator {
 }
